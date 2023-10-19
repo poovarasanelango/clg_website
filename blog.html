@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog Anna university</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="ion-close" onclick="hideMenu()"></i>
+
+     
+                <ul>
+                    <li> <a href="home.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li> <a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li> <a href="">CONTACT</a></li>   
+                </ul>
+            </div>
+            <i class="ion-navicon-round" onclick="showMenu()"></i>
+
+        </nav>
+
+       <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    
+
+
+   <!-- blog -->
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Our Certificate & Online Programs For 2021Our Certificate & Online Programs For 2021Our Certificate & Online Programs For 2021Our Certificate & Online Programs For 2021Our Certificate & Online Programs For 2021Our Certificate & Online Programs For 2021</p>
+            <br>
+            <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.</p>
+            <br>
+            <p>Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form"> 
+                    <input type="text" placeholder="Enter the Name">
+                    <input type="text" placeholder="Enter the Email">
+                    <textarea rows="5" placeholder="Your Comment">
+
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post </h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>AutoCad</span>
+                <span>33</span>
+            </div>
+            <div>
+                <span>Java</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Sql</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Python</span>
+                <span>43</span>
+            </div>
+            <div>
+                <span>Php</span>
+                <span>23</span>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A college is an academic institution or a constituent part of one. A college may be a degree-awarding educational institution. <br> So, college is meant not only to provide education in the country but also a strong base of youth power</p>
+    <div class="icons">
+        <i class="ion-social-facebook"></i>
+        <i class="ion-social-whatsapp"></i>
+        <i class="ion-social-instagram"></i>
+        <i class="ion-social-twitter"></i>
+    </div>
+    <p>Made with <i class="ion-ios-flag"></i> India</p>
+</section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+    
+</body>
+</html>
